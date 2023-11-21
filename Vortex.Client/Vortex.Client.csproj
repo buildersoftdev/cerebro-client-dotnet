@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+
+		<TargetFramework>net8.0</TargetFramework>
+
+		<AssemblyVersion>4.0.0</AssemblyVersion>
+		<FileVersion>4.0.0</FileVersion>
+		<Product>Buildersoft Vortex</Product>
+		<Company>Buildersoft LLC</Company>
+		<Authors>Buildersoft</Authors>
+
+		<Copyright>Copyright © Buildersoft LLC 2023</Copyright>
+		
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+
+
+		<Description>
+			Buildersoft Vortex is an open-source distributed streaming platform designed to deliver the best performance possible for high-performance data pipelines, streaming analytics, streaming between microservices and data integrations.
+			This library offers flexible messaging models with high-level APIs for NET.
+		</Description>
+
+		<RepositoryUrl>https://github.com/buildersoftio/</RepositoryUrl>
+		<PackageTags>vortex buildersoft eda data data-as-product streaming distributed</PackageTags>
+
+		<Version>4.0.0</Version>
+		<PackageId>Vortex.Client</PackageId>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<IsPublishable>True</IsPublishable>
+		
+	</PropertyGroup>
+
+</Project>
