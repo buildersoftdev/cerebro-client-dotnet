@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34310.174
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vortex.Client", "Vortex.Client\Vortex.Client.csproj", "{BFFA38D3-BD00-4784-9CB8-6660B4E88389}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vortex.Client", "src\Vortex.Client\Vortex.Client.csproj", "{BFFA38D3-BD00-4784-9CB8-6660B4E88389}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vortex.Client.Extensions.Microsoft.DependencyInjection", "src\Vortex.Client.Extensions.Microsoft.DependencyInjection\Vortex.Client.Extensions.Microsoft.DependencyInjection.csproj", "{FA48D255-970E-40CB-A32D-93BEEE6517EA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{BFFA38D3-BD00-4784-9CB8-6660B4E88389}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BFFA38D3-BD00-4784-9CB8-6660B4E88389}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BFFA38D3-BD00-4784-9CB8-6660B4E88389}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA48D255-970E-40CB-A32D-93BEEE6517EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA48D255-970E-40CB-A32D-93BEEE6517EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA48D255-970E-40CB-A32D-93BEEE6517EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA48D255-970E-40CB-A32D-93BEEE6517EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

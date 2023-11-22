@@ -1,0 +1,62 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+
+		<AssemblyVersion>4.0.0</AssemblyVersion>
+		<FileVersion>4.0.0</FileVersion>
+		<Product>Buildersoft Vortex</Product>
+		<Company>Buildersoft LLC</Company>
+		<Authors>Buildersoft</Authors>
+
+		<Copyright>Copyright © Buildersoft LLC 2023</Copyright>
+
+		<Description>
+			Vortex Client extensions for ASP.NET Core
+		</Description>
+
+		<RepositoryUrl>https://github.com/buildersoftio/vortex-client-dotnet</RepositoryUrl>
+		<PackageTags>vortex buildersoft eda data data-as-product streaming distributed</PackageTags>
+
+		<Version>4.0.0</Version>
+		<PackageId>Vortex.Client.Extensions.Microsoft.DependencyInjection</PackageId>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<IsPublishable>True</IsPublishable>
+		<Title>Vortex Client Extensions for Microsoft Dependency Injection</Title>
+		<IncludeSymbols>False</IncludeSymbols>
+		<RepositoryType>git</RepositoryType>
+		<PackageIcon>vortex-icon.png</PackageIcon>
+		<PackageLicenseFile>license.md</PackageLicenseFile>
+		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+
+	</PropertyGroup>
+
+
+	<ItemGroup>
+		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+	</ItemGroup>
+
+
+	<ItemGroup>
+		<ProjectReference Include="..\Vortex.Client\Vortex.Client.csproj" />
+	</ItemGroup>
+
+
+	<ItemGroup>
+		<None Remove="Assets\license.md" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Content Include="Assets\license.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</Content>
+		<Content Include="Assets\vortex-icon.png">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</Content>
+	</ItemGroup>
+
+</Project>
