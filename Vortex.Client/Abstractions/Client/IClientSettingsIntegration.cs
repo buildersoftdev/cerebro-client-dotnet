@@ -1,8 +1,10 @@
-﻿namespace Vortex.Client.Abstractions.Client
+﻿using Vortex.Client.Configurations;
+
+namespace Vortex.Client.Abstractions.Client
 {
     public interface IClientSettingsIntegration
     {
-        IClientBuildIntegration AndSettings(/*add later, add parameter configs as action here*/);
+        IClientBuildIntegration AndSettings(Action<ClientSettings> settings);
         void Build();
     }
 }
