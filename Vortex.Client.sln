@@ -5,7 +5,7 @@ VisualStudioVersion = 17.9.34310.174
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vortex.Client", "src\Vortex.Client\Vortex.Client.csproj", "{BFFA38D3-BD00-4784-9CB8-6660B4E88389}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vortex.Client.Extensions.Microsoft.DependencyInjection", "src\Vortex.Client.Extensions.Microsoft.DependencyInjection\Vortex.Client.Extensions.Microsoft.DependencyInjection.csproj", "{FA48D255-970E-40CB-A32D-93BEEE6517EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vortex.Client.Extensions.Microsoft.DependencyInjection", "src\Vortex.Client.Extensions.Microsoft.DependencyInjection\Vortex.Client.Extensions.Microsoft.DependencyInjection.csproj", "{FA48D255-970E-40CB-A32D-93BEEE6517EA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
